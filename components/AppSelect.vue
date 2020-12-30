@@ -21,7 +21,10 @@ export default {
       type: String,
       default: "cuisine",
     },
-    selectOptions: { type: Array, default: () => ["tacos", "pica", "dim sum"] },
+    selectOptions: {
+      type: Array,
+      default: () => ["tacos", "pizza", "dim sum"],
+    },
   },
 };
 </script>
